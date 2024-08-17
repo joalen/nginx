@@ -32,7 +32,7 @@ jobs:
           make
         continue-on-error: true 
 
-        - name: Install DynamoRIO
+      - name: Install DynamoRIO
         if: runner.os == 'Linux'
         run: | 
           sudo apt-get update
